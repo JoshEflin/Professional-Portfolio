@@ -1,13 +1,107 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./dist/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Josh Eflin: Professional Page</title>
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+
+    <nav>
+        <ul class="nav-bar">
+            <li>
+                <a class="nav-bar_button" href="#about-me">About Me</a>
+            </li>
+            <li>
+                <a class="nav-bar_button" href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+                <a class="nav-bar_button" href="#contact-info">Contact Info</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container">
+
+        <img class="me" id="about-me" src="./assets/images/Drawing-by-megan2.png"></img>
+        <header>
+            <h1> Josh Eflin </h1>
+        </header>
+
+        <div>
+            <main class="flexbox-main">
+                <article>
+                    <p>Hello! My name is Josh Eflin</p>
+                    <p>I'm a happy you are here. Welcome to the first iteration of my portfolio website.</p>
+                    <p>Right now there is only one project but soon there will be more.</p>
+                    <p>Click on a project below</p>
+                </article>
+
+                <section class="project-portfolio" id="portfolio">
+                    <h2 id = "project-header"> Projects</h2>
+                    <ul class = "cardboard">
+                        <li class = "card">
+                            <h2>A Bone to Pick</h2>
+                                    <a href="https://josheflin.github.io/A-Bone-to-Pick/">
+                                <img src="./assets/images/bone-to-pick.png" title="Dog Playing Cards"
+                                    alt="Dog Playing Card" />
+                            </a>
+                        </li>
+                        <li class = "card">
+                            <h2>What is the weather?</h2>
+                                <a href="https://josheflin.github.io/five-day-outlook/">
+                                <img title="Five-Day-Outlook" src="./assets/images/desktop-weather-app.png"
+                                    alt="Screenshot of a weather Application" />
+                            </a>
+                        </li>
+                        <li class = "card">
+                            <h2>JQuery Calendar</h2>
+                                <a href="https://josheflin.github.io/JQuery-Calendar/"> 
+                                <img title="Data analysis Dump Truck" src="./assets/images/JQuery Calender.png"
+                                    alt="Calendar Screenshot" />
+                            </a>
+                        </li>
+                        <li class = "card">
+                            <h2>Refactor</h2>
+                                    <a href="https://josheflin.github.io/accesibility-refactor-horiseon/">
+                                <img src="./assets/images/Horiseon.png" title="Horiseon-refactor"
+                                    alt="image of a static website" />
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </main>
+
+            <footer id="contact-info">             
+                <h3> Click an icon below to contact me!</h3>
+                
+                <section>
+                    <ul>
+                        <li>
+                            <a href="mailto:eflinjh@gmail.com">
+                                <img src="./assets/images/mail.png"/>
+                            </a>
+                            
+                        </li>
+                        <li>
+                            <a href="tel: +1-571-216-7020">
+                                <img src="./assets/images/Phone-Icon-PNG.png"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.github.com/JoshEflin">
+                                <img src="assets/images/github-mark.png"/>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </div>
 </body>
+
 </html>
